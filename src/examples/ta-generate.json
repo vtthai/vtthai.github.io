@@ -71,7 +71,7 @@
       "groupId": "C",
       "name": "using ACE TADataCollector",
       "primary": false,
-      "docs" : "https://ibm.github.io/app-mod-journey/details/aceTADataCollector",
+      "docs" : "https://vtthai.github.io/details/aceTADataCollector",
       "color": "black"
     },
     {
@@ -79,7 +79,7 @@
       "groupId": "C",
       "name": "using WSADMIN Command",
       "color": "green",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/wsadminDataCollector",
+      "docs" : "https://vtthai.github.io/details/wsadminDataCollector",
       "videos": "https://www.youtube.com/embed/XV2QmYcR_6s?autoplay=1",
       "childPointers": ["D1","D2","D3"]
     },
@@ -88,7 +88,7 @@
       "groupId": "C",
       "name": "using Binary Scanner",
       "color": "green",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/binaryScannerDataCollection",
+      "docs" : "https://vtthai.github.io/details/binaryScannerDataCollection",
       "videos": "https://www.youtube.com/embed/01BahVVEvZI?autoplay=1",
       "childPointers": ["D1","D2","D3"]
     },
@@ -97,7 +97,7 @@
       "groupId": "C",
       "name": "using custom parameters",
       "color": "green",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/customProperties",
+      "docs" : "https://vtthai.github.io/details/customProperties",
       "videos": "https://www.youtube.com/embed/ZIDNCvNfegQ?autoplay=1",
       "childPointers": ["D1","D2","D3"]
     },
@@ -107,7 +107,7 @@
       "name": "using TA Data Collector",
       "primary": true,
       "color": "green",
-      "docs": "https://ibm.github.io/app-mod-journey/details/WebSphere_DataCollectorCommands",
+      "docs": "https://vtthai.github.io/details/WebSphere_DataCollectorCommands",
       "videos": "https://www.youtube.com/embed/pAX-IMGr09o?autoplay=1",
       "childPointers": ["D1","D2","D3"]
     },
@@ -115,7 +115,7 @@
       "id": "C5",
       "groupId": "C",
       "name": "using Custom Rules",
-      "docs": "https://ibm.github.io/app-mod-journey/details/userDefinedRules",
+      "docs": "https://vtthai.github.io/details/userDefinedRules",
       "videos": "https://www.youtube.com/embed/7xcjV-PUomI?autoplay=1&start=0&end=260",
       "childPointers": ["D1","D2","D3"]
     },
@@ -132,7 +132,7 @@
       "name": "using TA Data Collector (WebLogic)",
       "primary": false,
       "color": "green",
-      "docs": "https://ibm.github.io/app-mod-journey/details/WebSphere_DataCollectorCommands#weblogic",
+      "docs": "https://vtthai.github.io/details/WebSphere_DataCollectorCommands#weblogic",
       "childPointers": ["D1","D2","D3"]
     },
     {
@@ -141,7 +141,7 @@
       "name": "using TA Data Collector (JBoss)",
       "primary": false,
       "color": "green",
-      "docs": "https://ibm.github.io/app-mod-journey/details/WebSphere_DataCollectorCommands#jboss",
+      "docs": "https://vtthai.github.io/details/WebSphere_DataCollectorCommands#jboss",
       "childPointers": ["D1","D2","D3"]
     },
     {
@@ -150,7 +150,7 @@
       "name": "using TA Data Collector (Tomcat)",
       "primary": false,
       "color": "green",
-      "docs": "https://ibm.github.io/app-mod-journey/details/WebSphere_DataCollectorCommands#tomcat",
+      "docs": "https://vtthai.github.io/details/WebSphere_DataCollectorCommands#tomcat",
       "childPointers": ["D1","D2","D3"]
     },
     {
@@ -158,7 +158,7 @@
       "groupId": "D",
       "name": "upload results manually",
       "color": "green",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/uploadResultsManually",
+      "docs" : "https://vtthai.github.io/details/uploadResultsManually",
       "childPointers": ["E1","E2","E3","E4","E5","E6","E7","E8"]
     },
     {
@@ -167,7 +167,7 @@
       "name": "upload results automatically",
       "color": "green",
       "primary": true,
-      "docs" : "https://ibm.github.io/app-mod-journey/details/uploadResults",
+      "docs" : "https://vtthai.github.io/details/uploadResults",
       "childPointers": ["E1","E2","E3","E4","E5","E6","E7","E8"]
     },
     {
@@ -175,7 +175,7 @@
       "groupId": "D",
       "name": "upload results manually in bulk",
       "color": "green",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/bulkUploadResults",
+      "docs" : "https://vtthai.github.io/details/bulkUploadResults",
       "videos": "https://www.youtube.com/embed/L0bktEJSuAU?autoplay=1&start=92&end=298",
       "childPointers": ["E1","E2","E3","E4","E5","E6","E7","E8"]
     },
@@ -240,7 +240,7 @@
       "id": "E8",
       "groupId": "E",
       "name": "understand exported reports",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/csvReports",
+      "docs" : "https://vtthai.github.io/details/csvReports",
       "color": "green",
       "childPointers": ["F1","F2","F3"]
     },
@@ -248,7 +248,7 @@
       "id": "F1",
       "groupId": "F",
       "name": "deploy a Simple app to tWas Base in Containers",
-      "docs": "https://ibm.github.io/app-mod-journey/details/twasContainers",
+      "docs": "https://vtthai.github.io/details/twasContainers",
       "videos": "https://www.youtube.com/embed/d0meOKDkrYw?autoplay=1&start=21",
       "color": "black",
       "childPointers": ["G1","G2"]
@@ -267,7 +267,7 @@
       "id": "F3",
       "groupId": "F",
       "name": "deploy a Simple app to Kubernetes",
-      "docs": "https://ibm.github.io/app-mod-journey/details/deployToKubernetes",
+      "docs": "https://vtthai.github.io/details/deployToKubernetes",
       "color": "black",
       "childPointers": ["G1"]
     },
@@ -277,7 +277,7 @@
       "name": "resolve issues for a Moderate app",
       "color": "green",
       "primary": true,
-      "docs": "https://ibm.github.io/app-mod-journey/details/resolveIssuesSample",
+      "docs": "https://vtthai.github.io/details/resolveIssuesSample",
       "childPointers": ["H2","H3","H4","H5"]
     },
     {
@@ -290,14 +290,14 @@
       "id": "H3",
       "groupId": "H2",
       "name": "resolve issues with multiple solutions",
-      "docs": "https://ibm.github.io/app-mod-journey/details/resolveIssuesSample#resolve-issues-with-multiple-solutions",
+      "docs": "https://vtthai.github.io/details/resolveIssuesSample#resolve-issues-with-multiple-solutions",
       "color": "black"
     },
     {
       "id": "H4",
       "groupId": "H2",
       "name": "resolve issues with automated code fixes",
-      "docs": "https://ibm.github.io/app-mod-journey/details/resolveIssuesSample#resolve-issues-with-automated-code-fixes",
+      "docs": "https://vtthai.github.io/details/resolveIssuesSample#resolve-issues-with-automated-code-fixes",
       "videos": "https://www.youtube.com/embed/7xcjV-PUomI?autoplay=1&start=260",
       "color": "black",
       "primary": true,
@@ -352,7 +352,7 @@
       "id": "K2",
       "groupId": "K1",
       "name": "integrate with Vault",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/J2-vault-integration",
+      "docs" : "https://vtthai.github.io/details/J2-vault-integration",
       "color": "green",
       "primary": false
     },
@@ -384,7 +384,7 @@
       "id": "L1",
       "groupId": "L",
       "name": "configure app database session persistence",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/sessionPersistenceTransactionLogging#configuring-application-database-session-persistence",
+      "docs" : "https://vtthai.github.io/details/sessionPersistenceTransactionLogging#configuring-application-database-session-persistence",
       "color": "green",
       "primary": false
     },
@@ -392,7 +392,7 @@
       "id": "L2",
       "groupId": "L",
       "name": "configure app in-memory session persistence",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/sessionPersistenceTransactionLogging#configuring-application-in-memory-session-persistence ",
+      "docs" : "https://vtthai.github.io/details/sessionPersistenceTransactionLogging#configuring-application-in-memory-session-persistence ",
       "color": "green",
       "primary": false
     },
@@ -400,7 +400,7 @@
       "id": "L3",
       "groupId": "L",
       "name": "configure app database transaction logging",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/sessionPersistenceTransactionLogging#configuring-application-database-transaction-logging",
+      "docs" : "https://vtthai.github.io/details/sessionPersistenceTransactionLogging#configuring-application-database-transaction-logging",
       "color": "green",
       "primary": false
     },
@@ -408,7 +408,7 @@
       "id": "L4",
       "groupId": "L",
       "name": "configure app in-memory transaction logging",
-      "docs" : "https://ibm.github.io/app-mod-journey/details/sessionPersistenceTransactionLogging#configuring-application-in-memory-transaction-logging ",
+      "docs" : "https://vtthai.github.io/details/sessionPersistenceTransactionLogging#configuring-application-in-memory-transaction-logging ",
       "color": "black",
       "primary": false
     }

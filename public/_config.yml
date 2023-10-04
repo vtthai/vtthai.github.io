@@ -2,3 +2,6 @@
 include:
   - '_*_.html'
   - '_*_.*.html'
+
+# Google Analytics
+google_analytics: G-KNYEBYGTV8

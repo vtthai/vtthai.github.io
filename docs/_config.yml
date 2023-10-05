@@ -1,6 +1,7 @@
 ---
 name: true
 title: false
+google_analytics: G-KNYEBYGTV8
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme

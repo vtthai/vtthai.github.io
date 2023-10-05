@@ -330,9 +330,6 @@ class App extends Component {
   };
 
   componentDidMount() {
-   
-    ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search});
-
     const dimensions = this.treeContainer.getBoundingClientRect();
     this.setState({
       translateX: dimensions.width / 25,
@@ -662,6 +659,7 @@ class App extends Component {
                     onLinkClick={(...args) => {
                       console.log('onLinkClick');
                       console.log(args);
+                      ReactGA.send({ hitType: "pageview", page: "====testing==="});
                     }}
                     onLinkMouseOver={(...args) => {
                       console.log('onLinkMouseOver', args);

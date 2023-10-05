@@ -16,6 +16,9 @@ import {TableOfContents} from '@carbon/icons-react';
 
 import Modal from 'react-modal';
 
+import ReactGA from "react-ga4";
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 console.log('Demo React version: ', React.version);
 
 const customModalStyles = {

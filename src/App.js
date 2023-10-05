@@ -17,7 +17,6 @@ import {TableOfContents} from '@carbon/icons-react';
 import Modal from 'react-modal';
 
 import ReactGA from "react-ga4";
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 console.log('Demo React version: ', React.version);
 
@@ -331,6 +330,7 @@ class App extends Component {
   };
 
   componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     const dimensions = this.treeContainer.getBoundingClientRect();
     this.setState({
       translateX: dimensions.width / 25,

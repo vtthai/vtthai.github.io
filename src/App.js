@@ -16,8 +16,6 @@ import {TableOfContents} from '@carbon/icons-react';
 
 import Modal from 'react-modal';
 
-import ReactGA from "react-ga4";
-
 console.log('Demo React version: ', React.version);
 
 const customModalStyles = {
@@ -659,7 +657,6 @@ class App extends Component {
                     onLinkClick={(...args) => {
                       console.log('onLinkClick');
                       console.log(args);
-                      ReactGA.send({ hitType: "pageview", page: "====testing==="});
                     }}
                     onLinkMouseOver={(...args) => {
                       console.log('onLinkMouseOver', args);

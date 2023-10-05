@@ -17,6 +17,7 @@ import {TableOfContents} from '@carbon/icons-react';
 import Modal from 'react-modal';
 
 import ReactGA from "react-ga4";
+ReactGA.initialize("G-KNYEBYGTV8");
 
 console.log('Demo React version: ', React.version);
 
@@ -330,7 +331,9 @@ class App extends Component {
   };
 
   componentDidMount() {
+    //https://medium.com/geekculture/how-to-use-google-analytics-on-reactjs-in-5-minutes-7f6b43017ba9
     ReactGA.pageview(window.location.pathname + window.location.search);
+
     const dimensions = this.treeContainer.getBoundingClientRect();
     this.setState({
       translateX: dimensions.width / 25,
